@@ -1,0 +1,272 @@
+<mjml>
+
+  <mj-head>
+    <mj-font name="Lora" href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300&family=Lora&family=Nunito:wght@200;300;400;600&family=Oswald:wght@200&display=swap" />
+    <mj-attributes>
+      <mj-all font-size="16px" />
+      <mj-all font-family="Lora, Helvetica Neue, Arial" letter-spacing="2px" line-height="25px" padding="0px"/>
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body background-color="#dee2dd">
+    <mj-wrapper padding-top="0px" padding-bottom="40px">
+
+      // header
+      <mj-section padding="5px">
+        <mj-column>
+          <mj-text align="center">
+            <a href="#" style="color: #959595; font-size: 12px; padding-right: 5px;">View in browser</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      // logo/navbar
+      <mj-section border-radius="20px 20px 0px 0px" padding-bottom="10px" background-color="#ffffff">
+        <mj-column>
+          <mj-image src="img/cinco-logo-2.png" alt="logo" width="200px" />
+        </mj-column>
+
+        <mj-column vertical-align="bottom">
+          <mj-table padding="0px" padding-top="10px">
+            <tr style="text-align: center;">
+              <td style="border-right: 1px solid black;">
+                <a href="#" style="text-decoration: none; color: #000000;">Magazine</a>
+              </td>
+              <td style="border-right: 1px solid black;">
+                <a href="#" style="text-decoration: none; color: #000000;">Chefs</a>
+              </td>
+              <td>
+                <a href="#" style="text-decoration: none; color: #000000;">Recipes</a>
+              </td>
+            </tr>
+          </mj-table>
+        </mj-column>
+      </mj-section>
+
+      // hero
+      <mj-hero mode="fixed-height" padding-top="80px" padding-bottom="80px" height="460px" background-width="600px" background-height="460px" background-url="img/cinco-main_2.png">
+        <mj-text color="#ffffff" letter-spacing="5px" align="center" font-size="30px" padding-bottom="30px">
+          CELEBRATE
+        </mj-text>
+        <mj-text color="#ffffff" align="center" font-size="64px" padding-bottom="0px" padding-left="25px" padding-right="25px" line-height="70px">
+          Cinco De Mayo
+        </mj-text>
+        <mj-divider border-width="2px" width="100px" border-color="#cd002d" padding-bottom="30px" />
+        <mj-text color="#ffffff" align="center" padding-bottom="30px" padding-left="100px" padding-right="100px">
+          Check out 5 fantastic Mexican dishes commented on by famous food critics.
+        </mj-text>
+        <mj-button align="center" href="#" background-color="#cd002d" width="160px">
+          Learn More
+        </mj-button>
+      </mj-hero>
+
+      // chilaquiles verdes/2 column
+      <mj-section background-color="#ffffff">
+        <mj-column vertical-align="bottom" background-color="#FFF4ED" padding-left="20px" padding-right="20px" padding-top="80px" padding-bottom="30px">
+          <mj-text font-size="80px" color="#f28f3b" padding-bottom="50px">
+            1
+          </mj-text>
+          <mj-text font-size="26px" line-height="35px" font-weight="bold">
+            Chilaquiles Verdes
+          </mj-text>
+          <mj-divider border-width="1px" border-color="#f28f3b" padding-left="0px" padding-right="0px" padding-bottom="10px" padding-top="20px" />
+          <mj-text>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat gerom volutpat.</p>
+            <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper</p>
+            <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+          </mj-text>
+        </mj-column>
+
+        <mj-column vertical-align="top" background-color="#ffffff" padding-left="20px" padding-right="20px" padding-top="60px" padding-bottom="30px">
+          <mj-image src="img/dish-3-outline_2.png" alt="toasted bread with chips" fluid-on-mobile="true" />
+          <mj-image src="img/quote-orange.png" padding-bottom="20px" width="60px" align="left" alt="orange quotation mark" />
+          <mj-text font-style="italic" font-weight="bold">
+            Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper. Lorem ipsum dolor sit amet, adipiscing elit consectetuer.
+          </mj-text>
+          <mj-divider border-width="1px" border-color="#f28f3b" padding-left="0px" padding-right="0px" padding-bottom="20px" padding-top="20px" />
+          <mj-text font-weight="bold">
+            — John Sanford
+          </mj-text>
+          <mj-text>
+            Food Critic | England
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      // nachos/2 column
+      <mj-section background-color="#ffffff" direction="rtl">
+        <mj-column vertical-align="bottom" background-color="#FBE9EB" padding-left="20px" padding-right="20px" padding-top="80px" padding-bottom="30px">
+          <mj-text font-size="80px" color="#cd002d" padding-bottom="50px">
+            2
+          </mj-text>
+          <mj-text font-size="26px" line-height="35px" font-weight="bold">
+            Nachos
+          </mj-text>
+          <mj-divider border-width="1px" border-color="#cd002d" padding-left="0px" padding-right="0px" padding-bottom="10px" padding-top="20px" />
+          <mj-text>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat gerom volutpat.</p>
+            <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper</p>
+            <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+          </mj-text>
+        </mj-column>
+
+        <mj-column vertical-align="top" background-color="#ffffff" padding-left="20px" padding-right="20px" padding-top="60px" padding-bottom="30px">
+          <mj-image src="img/dish-2-outline_2.png" alt="toasted bread with chips" fluid-on-mobile="true" />
+          <mj-image src="img/quote-red.png" padding-bottom="20px" width="60px" align="left" alt="orange quotation mark" />
+          <mj-text font-style="italic" font-weight="bold">
+            Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper. Lorem ipsum dolor sit amet, adipiscing elit consectetuer.
+          </mj-text>
+          <mj-divider border-width="1px" border-color="#cd002d" padding-left="0px" padding-right="0px" padding-bottom="20px" padding-top="20px" />
+          <mj-text font-weight="bold">
+            — Gregg Johnson
+          </mj-text>
+          <mj-text>
+            Food Critic | USA
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      // Mexican Club Sandwich/2 column
+      <mj-section background-color="#ffffff">
+        <mj-column vertical-align="bottom" background-color="#FFF4ED" padding-left="20px" padding-right="20px" padding-top="80px" padding-bottom="30px">
+          <mj-text font-size="80px" color="#f28f3b" padding-bottom="50px">
+            3
+          </mj-text>
+          <mj-text font-size="26px" line-height="35px" font-weight="bold">
+            Mexican Club Sandwich
+          </mj-text>
+          <mj-divider border-width="1px" border-color="#f28f3b" padding-left="0px" padding-right="0px" padding-bottom="10px" padding-top="20px" />
+          <mj-text>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat gerom volutpat.</p>
+            <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper</p>
+            <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+          </mj-text>
+        </mj-column>
+
+        <mj-column vertical-align="top" background-color="#ffffff" padding-left="20px" padding-right="20px" padding-top="60px" padding-bottom="30px">
+          <mj-image src="img/dish-1-outline_2.png" alt="toasted bread with chips" fluid-on-mobile="true" />
+          <mj-image src="img/quote-orange.png" padding-bottom="20px" width="60px" align="left" alt="orange quotation mark" />
+          <mj-text font-style="italic" font-weight="bold">
+            Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper. Lorem ipsum dolor sit amet, adipiscing elit consectetuer.
+          </mj-text>
+          <mj-divider border-width="1px" border-color="#f28f3b" padding-left="0px" padding-right="0px" padding-bottom="20px" padding-top="20px" />
+          <mj-text font-weight="bold">
+            — Fernado Perez
+          </mj-text>
+          <mj-text>
+            Food Critic | Mexico
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      // florentina salad/2 column
+      <mj-section background-color="#ffffff" direction="rtl">
+        <mj-column vertical-align="bottom" background-color="#FBE9EB" padding-left="20px" padding-right="20px" padding-top="80px" padding-bottom="30px">
+          <mj-text font-size="80px" color="#cd002d" padding-bottom="50px">
+            4
+          </mj-text>
+          <mj-text font-size="26px" line-height="35px" font-weight="bold">
+            Florentina Salad
+          </mj-text>
+          <mj-divider border-width="1px" border-color="#cd002d" padding-left="0px" padding-right="0px" padding-bottom="10px" padding-top="20px" />
+          <mj-text>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat gerom volutpat.</p>
+            <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper</p>
+            <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+          </mj-text>
+        </mj-column>
+
+        <mj-column vertical-align="top" background-color="#ffffff" padding-left="20px" padding-right="20px" padding-top="60px" padding-bottom="30px">
+          <mj-image src="img/dish-4-outline_1.png" alt="toasted bread with chips" fluid-on-mobile="true" />
+          <mj-image src="img/quote-red.png" padding-bottom="20px" width="60px" align="left" alt="orange quotation mark" />
+          <mj-text font-style="italic" font-weight="bold">
+            Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper. Lorem ipsum dolor sit amet, adipiscing elit consectetuer.
+          </mj-text>
+          <mj-divider border-width="1px" border-color="#cd002d" padding-left="0px" padding-right="0px" padding-bottom="20px" padding-top="20px" />
+          <mj-text font-weight="bold">
+            — Daniela Cornelia
+          </mj-text>
+          <mj-text>
+            Food Critic | Italy
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      // Caesar Salad/2 column
+      <mj-section background-color="#ffffff">
+        <mj-column vertical-align="bottom" background-color="#FFF4ED" padding-left="20px" padding-right="20px" padding-top="80px" padding-bottom="30px">
+          <mj-text font-size="80px" color="#f28f3b" padding-bottom="50px">
+            5
+          </mj-text>
+          <mj-text font-size="26px" line-height="35px" font-weight="bold">
+            Caesar Sald
+          </mj-text>
+          <mj-divider border-width="1px" border-color="#f28f3b" padding-left="0px" padding-right="0px" padding-bottom="10px" padding-top="20px" />
+          <mj-text>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat gerom volutpat.</p>
+            <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper</p>
+            <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+          </mj-text>
+        </mj-column>
+
+        <mj-column vertical-align="top" background-color="#ffffff" padding-left="20px" padding-right="20px" padding-top="60px" padding-bottom="30px">
+          <mj-image src="img/dish-5-outline_1.png" alt="toasted bread with chips" fluid-on-mobile="true" />
+          <mj-image src="img/quote-orange.png" padding-bottom="20px" width="60px" align="left" alt="orange quotation mark" />
+          <mj-text font-style="italic" font-weight="bold">
+            Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper. Lorem ipsum dolor sit amet, adipiscing elit consectetuer.
+          </mj-text>
+          <mj-divider border-width="1px" border-color="#f28f3b" padding-left="0px" padding-right="0px" padding-bottom="20px" padding-top="20px" />
+          <mj-text font-weight="bold">
+            — Fernado Perez
+          </mj-text>
+          <mj-text>
+            Food Critic | Mexico
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      // footer
+      <mj-section border-radius="0px 0px 20px 20px" background-color="#222222" padding-left="20px" padding-right="20px" padding-top="40px" padding-bottom="20px">
+        <mj-column width="120px" padding-bottom="20px">
+          <mj-text font-weight="bold" color="#ffffff">
+            LINKS
+          </mj-text>
+          <mj-text>
+            <p><a href="#" style="text-decoration: none; color: #ffffff; font-size: 12px">Magazine</a></p>
+            <p><a href="#" style="text-decoration: none; color: #ffffff; font-size: 12px">News</a></p>
+            <p><a href="#" style="text-decoration: none; color: #ffffff; font-size: 12px">Recipes</a></p>
+            <p><a href="#" style="text-decoration: none; color: #ffffff; font-size: 12px">Unsubcribe</a></p>
+          </mj-text>
+        </mj-column>
+
+        <mj-column padding-bottom="20px">
+          <mj-text font-weight="bold" color="#ffffff">
+            CONTACT
+          </mj-text>
+          <mj-text>
+            <p><a href="#" style="text-decoration: none; color: #ffffff; font-size: 12px">+1 (800) 000-0000</a></p>
+            <p><a href="#" style="text-decoration: none; color: #ffffff; font-size: 12px">example@email.com</a></p>
+          </mj-text>
+        </mj-column>
+
+        <mj-column width="210px" padding-bottom="20px">
+          <mj-image src="img/cinco-footer-logo_3.png" alt="logo" align="left" padding-bottom="8px" />
+          <mj-social align="left"  padding="0px" padding-bottom="8px">
+            <mj-social-element padding="5px" name="facebook">
+            </mj-social-element>
+            <mj-social-element padding="5px" name="twitter">
+            </mj-social-element>
+            <mj-social-element padding="5px" name="linkedin">
+            </mj-social-element>
+            <mj-social-element padding="5px"name="instagram">
+            </mj-social-element>
+          </mj-social>
+          <mj-text color="#ffffff" font-size="12px">
+            2023 © All Rights Reserved
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+    </mj-wrapper>
+  </mj-body>
+</mjml>
