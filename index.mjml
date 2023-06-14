@@ -23,7 +23,7 @@
       // logo/navbar
       <mj-section border-radius="20px 20px 0px 0px" padding-bottom="10px" background-color="#ffffff">
         <mj-column>
-          <mj-image src="https://i.ibb.co/ck447qb/cinco-logo-2.png" alt="logo" width="200px" />
+          <mj-image src="img/cinco-logo-2.png" alt="logo" width="200px" />
         </mj-column>
 
         <mj-column vertical-align="bottom">
@@ -44,7 +44,7 @@
       </mj-section>
 
       // hero
-      <mj-hero mode="fixed-height" padding-top="80px" padding-bottom="80px" height="460px" background-width="600px" background-height="460px" background-url="https://i.ibb.co/ChGKYcN/cinco-main-2.jpg">
+      <mj-hero mode="fixed-height" padding-top="80px" padding-bottom="80px" height="460px" background-width="600px" background-height="460px" background-url="img/cinco-main_2.png">
         <mj-text color="#ffffff" letter-spacing="5px" align="center" font-size="30px" padding-bottom="30px">
           CELEBRATE
         </mj-text>
@@ -78,8 +78,8 @@
         </mj-column>
 
         <mj-column vertical-align="top" background-color="#ffffff" padding-left="20px" padding-right="20px" padding-top="60px" padding-bottom="30px">
-          <mj-image src="https://i.ibb.co/6P0ZBN8/dish-3-outline-2.png" alt="toasted bread with chips" fluid-on-mobile="true" />
-          <mj-image src="https://i.ibb.co/WcdZ65J/quote-orange.png" alt="quote-orange" padding-bottom="20px" width="60px" align="left" />
+          <mj-image src="img/dish-3-outline_2.png" alt="toasted bread with chips" fluid-on-mobile="true" />
+          <mj-image src="img/quote-orange.png" padding-bottom="20px" width="60px" align="left" alt="orange quotation mark" />
           <mj-text font-style="italic" font-weight="bold">
             Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper. Lorem ipsum dolor sit amet, adipiscing elit consectetuer.
           </mj-text>
@@ -111,8 +111,8 @@
         </mj-column>
 
         <mj-column vertical-align="top" background-color="#ffffff" padding-left="20px" padding-right="20px" padding-top="60px" padding-bottom="30px">
-          <mj-image src="https://i.ibb.co/jTQqQN1/dish-2-outline-2.png" alt="toasted bread with chips" fluid-on-mobile="true" />
-          <mj-image src="https://i.ibb.co/Swfm4Q8/quote-red.png" alt="quote-red" padding-bottom="20px" width="60px" align="left" />
+          <mj-image src="img/dish-2-outline_2.png" alt="toasted bread with chips" fluid-on-mobile="true" />
+          <mj-image src="img/quote-red.png" padding-bottom="20px" width="60px" align="left" alt="orange quotation mark" />
           <mj-text font-style="italic" font-weight="bold">
             Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper. Lorem ipsum dolor sit amet, adipiscing elit consectetuer.
           </mj-text>
@@ -144,8 +144,8 @@
         </mj-column>
 
         <mj-column vertical-align="top" background-color="#ffffff" padding-left="20px" padding-right="20px" padding-top="60px" padding-bottom="30px">
-          <mj-image src="https://i.ibb.co/WfsvcC8/dish-1-outline-2.png" alt="toasted bread with chips" fluid-on-mobile="true" />
-          <mj-image src="https://i.ibb.co/WcdZ65J/quote-orange.png" alt="quote-orange" padding-bottom="20px" width="60px" align="left" />
+          <mj-image src="img/dish-1-outline_2.png" alt="toasted bread with chips" fluid-on-mobile="true" />
+          <mj-image src="img/quote-orange.png" padding-bottom="20px" width="60px" align="left" alt="orange quotation mark" />
           <mj-text font-style="italic" font-weight="bold">
             Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper. Lorem ipsum dolor sit amet, adipiscing elit consectetuer.
           </mj-text>
@@ -177,8 +177,8 @@
         </mj-column>
 
         <mj-column vertical-align="top" background-color="#ffffff" padding-left="20px" padding-right="20px" padding-top="60px" padding-bottom="30px">
-          <mj-image src="https://i.ibb.co/B2wxY3N/dish-4-outline-1.png" alt="toasted bread with chips" fluid-on-mobile="true" />
-          <mj-image src="https://i.ibb.co/Swfm4Q8/quote-red.png" alt="quote-red" padding-bottom="20px" width="60px" align="left" />
+          <mj-image src="img/dish-4-outline_1.png" alt="toasted bread with chips" fluid-on-mobile="true" />
+          <mj-image src="img/quote-red.png" padding-bottom="20px" width="60px" align="left" alt="orange quotation mark" />
           <mj-text font-style="italic" font-weight="bold">
             Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper. Lorem ipsum dolor sit amet, adipiscing elit consectetuer.
           </mj-text>
@@ -210,8 +210,8 @@
         </mj-column>
 
         <mj-column vertical-align="top" background-color="#ffffff" padding-left="20px" padding-right="20px" padding-top="60px" padding-bottom="30px">
-          <mj-image src="https://i.ibb.co/7yB8Cxj/dish-5-outline-1.png" alt="toasted bread with chips" fluid-on-mobile="true" />
-          <mj-image src="https://i.ibb.co/WcdZ65J/quote-orange.png" alt="quote-orange" padding-bottom="20px" width="60px" align="left" />
+          <mj-image src="img/dish-5-outline_1.png" alt="toasted bread with chips" fluid-on-mobile="true" />
+          <mj-image src="img/quote-orange.png" padding-bottom="20px" width="60px" align="left" alt="orange quotation mark" />
           <mj-text font-style="italic" font-weight="bold">
             Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper. Lorem ipsum dolor sit amet, adipiscing elit consectetuer.
           </mj-text>
@@ -250,7 +250,7 @@
         </mj-column>
 
         <mj-column width="210px" padding-bottom="20px">
-          <mj-image src="https://i.ibb.co/smKZYW1/cinco-footer-logo-3.png" alt="logo" align="left" padding-bottom="8px" />
+          <mj-image src="img/cinco-footer-logo_3.png" alt="logo" align="left" padding-bottom="8px" />
           <mj-social align="left" padding="0px" padding-bottom="8px">
             <mj-social-element padding="5px" name="facebook" href="https://www.facebook.com/" alt="facebook">
             </mj-social-element>
