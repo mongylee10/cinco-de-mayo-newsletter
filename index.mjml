@@ -3,8 +3,11 @@
   <mj-head>
     <mj-font name="Lora" href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300&family=Lora&family=Nunito:wght@200;300;400;600&family=Oswald:wght@200&display=swap" />
     <mj-attributes>
+      <mj-preview>
+          Come Celebrate Cinco De Mayo
+      </mj-preview>
       <mj-all font-size="16px" />
-      <mj-all font-family="Lora, Helvetica Neue, Arial" letter-spacing="2px" line-height="25px" padding="0px"/>
+      <mj-all font-family="Lora, Helvetica Neue, Arial" letter-spacing="2px" line-height="25px" padding="0px" />
     </mj-attributes>
   </mj-head>
 
@@ -251,14 +254,14 @@
 
         <mj-column width="210px" padding-bottom="20px">
           <mj-image src="img/cinco-footer-logo_3.png" alt="logo" align="left" padding-bottom="8px" />
-          <mj-social align="left"  padding="0px" padding-bottom="8px">
-            <mj-social-element padding="5px" name="facebook">
+          <mj-social align="left" padding="0px" padding-bottom="8px">
+            <mj-social-element padding="5px" name="facebook" href="https://www.facebook.com/" alt="facebook">
             </mj-social-element>
-            <mj-social-element padding="5px" name="twitter">
+            <mj-social-element padding="5px" name="twitter" href="https://www.twitter.com/" alt="twitter">
             </mj-social-element>
-            <mj-social-element padding="5px" name="linkedin">
+            <mj-social-element padding="5px" name="linkedin" href="https://www.linkedin.com/" alt="linkedin">
             </mj-social-element>
-            <mj-social-element padding="5px"name="instagram">
+            <mj-social-element padding="5px" name="instagram" href="https://www.instagram.com/" alt="instagram">
             </mj-social-element>
           </mj-social>
           <mj-text color="#ffffff" font-size="12px">
