@@ -1,11 +1,11 @@
-<mjml>
+<mjml lang="en">
 
   <mj-head>
+    <mj-preview>
+      Celebrate Cinco De Mayo
+    </mj-preview>
     <mj-font name="Lora" href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300&family=Lora&family=Nunito:wght@200;300;400;600&family=Oswald:wght@200&display=swap" />
     <mj-attributes>
-      <mj-preview>
-          Come Celebrate Cinco De Mayo
-      </mj-preview>
       <mj-all font-size="16px" />
       <mj-all font-family="Lora, Helvetica Neue, Arial" letter-spacing="2px" line-height="25px" padding="0px" />
     </mj-attributes>
